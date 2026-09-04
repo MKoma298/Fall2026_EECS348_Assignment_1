@@ -1,3 +1,23 @@
+'''
+Prologue:
+Name: EECS 348 Assignment 1
+Desc.: This program is a game that a user get to guess a secret number between 1-10, and      
+then loops 3 times and after the third guess, if not guessed correctly, will tell the used if
+they lost.
+Inputs: Any number between 1 and 10, any other answers will be treated as an error.
+Outputs: "Attempt %d/%d. Enter your guess: "
+	 "Error: Please enter a number.\n"
+	 "Correct! You win!\n"
+	 "Too low! Try again.\n"
+	 "Too high! Try again.\n"
+	 "You lose! The secret number was %d.\n"
+
+Code Sources: Chatgpt
+Name: Miakah Komardley
+Creation Date: Sept. 4th, 2026
+Revision Date: Sept. 4th, 2026
+'''
+
 #include <stdio.h>
 
 int main() {
